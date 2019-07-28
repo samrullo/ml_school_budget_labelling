@@ -31,13 +31,13 @@ df.Position_Extra.fillna('', inplace=True)
 TOKEN_BASIC = '\\S+(?=\\S+)'
 vec_whitespace = CountVectorizer(token_pattern=TOKEN_BASIC)
 vec_whitespace.fit(df['Position_Extra'])
-msg="There are {} tokens in Position_Extra when tokenizing on whitespace"
+msg = "There are {} tokens in Position_Extra when tokenizing on whitespace"
 print(msg.format(len(vec_whitespace.get_feature_names())))
 print("First 15 tokens:{}".format(vec_whitespace.get_feature_names()[:15]))
 
-TOKEN_ALPHANUMERIC='[A-Za-z0-9]+(?=\\S+)'
-vec_alphanumeric=CountVectorizer(token_pattern=TOKEN_ALPHANUMERIC)
+TOKEN_ALPHANUMERIC = '[A-Za-z0-9]+(?=\\S+)'
+vec_alphanumeric = CountVectorizer(token_pattern=TOKEN_ALPHANUMERIC)
 vec_alphanumeric.fit(df['Position_Extra'])
-msg="There are {} tokens in Position_Extra when tokenizing on non-alpha numeric"
+msg = "There are {} tokens in Position_Extra when tokenizing on non-alpha numeric"
 print(msg.format(len(vec_alphanumeric.get_feature_names())))
 print("First 15 token:{}".format(vec_alphanumeric.get_feature_names()))
