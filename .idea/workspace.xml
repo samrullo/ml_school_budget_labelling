@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bee5f6f0-2105-458f-ab96-db17d4adc921" name="Default Changelist" comment="ml school budget">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bee5f6f0-2105-458f-ab96-db17d4adc921" name="Default Changelist" comment="ml school budget" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +157,12 @@
             <path>
               <item name="ml_school_budget_labelling" type="b2602c69:ProjectViewProjectNode" />
               <item name="ml_school_budget_labelling" type="462c0819:PsiDirectoryNode" />
-              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="learn_piplelines" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ml_school_budget_labelling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ml_school_budget_labelling" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
